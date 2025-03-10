@@ -54,8 +54,8 @@ jobs:
         run: |
           bundle exec htmlproofer _site \
             --disable-external \
-            --allow-hash-href \
-            --url-ignore "/^http:/"
+            --ignore-urls "http://flaws.cloud,http://s3-us-west-2.amazonaws.com/flaws.cloud,http://4d0cf09b9b2d761a7d87be99d17507bce8b86f3b.flaws.cloud/"
+
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
