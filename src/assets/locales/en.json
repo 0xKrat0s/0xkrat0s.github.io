@@ -6,69 +6,41 @@
         "contacts": "contacts"
     },
     "footer": {
-        "description": "Cybersecurity Analyst and Researcher based in UAE",
+        "description": "Cybersecurity Analyst and Researcher",
         "copyright": "Copyright 2023. Made by Amal",
         "media": "Media"
     },
     "skills": {
         "language": "Languages",
-        "database": "Databases",
-        "other": "Other",
-        "tool": "Tools",
-        "framework": "Frameworks"
+        "security": "Security Skills",
+        "tools": "Security Tools",
+        "frameworks": "Frameworks & Methodologies",
+        "certifications": "Certifications"
     },
     "projects": {
         "chertnodes": {
-            "name": "Web Application Security",
-            "description": "Security strategies for modern web applications"
+            "name": "Client Side Path Traversal (CSPT)",
+            "description": "Exploring Client-Side Path Traversal (CSPT): How Attackers Exploit API Requests to Bypass Security and Exfiltrate Data"
         },
         "protectx": {
-            "name": "Penetration Testing Basics",
-            "description": "Introduction to effective penetration testing methodologies"
+            "name": "PHP Type Juggling Vulnerabilities",
+            "description": "How Attackers Exploit Loose Comparisons PHP type juggling that leads to security vulnerabilities"
         },
         "khanswers": {
-            "name": "OWASP Top 10",
-            "description": "Understanding common web vulnerabilities"
+            "name": "Web Cache Deception",
+            "description": "Understanding and Mitigating Security Risks Learn about Web Cache Deception and Cache Poisoning"
         },
         "kotikbot": {
-            "name": "Security CTF Writeups",
-            "description": "Detailed walkthroughs of various CTF challenges"
+            "name": "CVE-2025–21298",
+            "description": "Windows OLE Remote Code Execution Vulnerability"
         },
         "portfolio": {
-            "name": "API Security",
-            "description": "Best practices for securing APIs"
+            "name": "Bypassing Web Application Firewalls",
+            "description": "Using Shell Globbing techniques to bypass WAF protections"
         },
         "blog": {
-            "name": "Threat Intelligence",
-            "description": "Understanding modern cyber threats"
-        },
-        "discordbot": {
-            "name": "Cloud Security",
-            "description": "Security strategies for cloud environments"
-        },
-        "chesspro": {
-            "name": "Container Security",
-            "description": "Securing Docker and Kubernetes deployments"
-        },
-        "ooku": {
-            "name": "Security Automation",
-            "description": "Tools and techniques for automating security tasks"
-        },
-        "madhost": {
-            "name": "Secure Coding Practices",
-            "description": "Writing more secure application code"
-        },
-        "feedrum": {
-            "name": "DevSecOps",
-            "description": "Integrating security into the development pipeline"
-        },
-        "deplos": {
-            "name": "Mobile App Security",
-            "description": "Security considerations for mobile applications"
-        },
-        "pixel-battle": {
-            "name": "Malware Analysis",
-            "description": "Techniques for analyzing malicious software"
+            "name": "Unrested HTB Writeup",
+            "description": "Step-by-step walkthrough of the Unrested HackTheBox challenge"
         }
     },
     "pages": {
@@ -102,14 +74,14 @@
             "contacts": {
                 "title": "contacts",
                 "text": "I'm open to new opportunities and collaborations in the cybersecurity field. If you have any questions or would like to connect, don't hesitate to reach out.",
-                "media": "Message me here",
+                "media": "Message me on:",
                 "donate": "Donate me here"
             }
         },
         "projects": {
             "description": "My Security Articles",
-            "decent": "featured",
-            "small": "tutorials",
+            "decent": "featured blogs",
+            "small": "other blogs",
             "inProgress": "research"
         },
         "about": {

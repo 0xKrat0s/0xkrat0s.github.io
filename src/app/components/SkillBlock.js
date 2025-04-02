@@ -6,10 +6,10 @@ export default ({ id }, t) => {
         <div class="skill-block">
             <div class="skill-block__name">${t[id]}</div>
             <ul class="skill-block__list">
-                ${(skills[id].map((techIndex) => techs[techIndex]))
+                ${skills[id]
                     .map(
-                        (tech) =>
-                            /*html*/ `<li class="skill-block__skill">${tech}</li>`
+                        (skill) =>
+                            /*html*/ `<li class="skill-block__skill">${techs[skill] || skill}</li>`
                     )
                     .join("")}
             </ul>

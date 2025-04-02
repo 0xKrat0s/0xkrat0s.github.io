@@ -1,4 +1,3 @@
-
 /**
  * @type {import("../../types/Routes").Routes}
  */
@@ -7,7 +6,7 @@ export default {
         name: "home",
         element: "Home",
     },
-    "/projects": {
+    "/articles": {
         name: "projects",
         element: "Projects",
     },

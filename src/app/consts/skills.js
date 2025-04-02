@@ -1,7 +1,7 @@
 export default {
-    language: ["js", "ts", "python"],
-    database: ["sqlite", "postgreSql"],
-    other: ["html", "css", "sass", "scss", "less", "stylus", "ejs", "jinja", "pug"],
-    tool: ["vscode", "nvim", "figma", "git"],
-    framework: ["react", "next", "gulp", "express", "flask", "quart"]   
+    language: ["python", "bash"],
+    security: ["web application pentesting", "API pentesting", "mobile app pentesting", "cloud security", "thick client pentesting", "network pentesting"],
+    tools: ["burp suite", "nessus", "wireshark", "postman", "semgrep"],
+    frameworks: ["owasp", "nist", "mitre att&ck"],
+    certifications: ["ceh"]
 }

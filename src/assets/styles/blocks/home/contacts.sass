@@ -4,8 +4,7 @@
     &__content
         display: flex
         justify-content: space-between
-        align-items: start
-        flex-wrap: wrap
+        align-items: flex-start
         gap: 32px
         margin-top: 48px
 
@@ -18,10 +17,18 @@
     &__media
         border: 1px solid var(--gray)
         padding: 16px
+        min-width: 250px
+        flex-shrink: 0
 
     &__description
         color: var(--gray)
         max-width: 600px
+        flex-grow: 1
+
+    @media (max-width: 768px)
+        &__content
+            flex-direction: column
+            align-items: stretch
 
 .contact
     display: flex

@@ -9,7 +9,7 @@ export default (t, t2) => {
         <div class="blog-link">
             <a href="https://0xkratos.medium.com" target="_blank" class="button button__primary">Visit Medium Blog =></a>
         </div>
-        ${ProjectList({ title: t.decent, filter: (p) => p.id.startsWith("chertnodes") || p.id.startsWith("protectx") || p.id.startsWith("khanswers") || p.id.startsWith("kotikbot") }, t2.projects)}
-        ${ProjectList({ title: t.small, filter: (p) => !p.id.startsWith("chertnodes") && !p.id.startsWith("protectx") && !p.id.startsWith("khanswers") && !p.id.startsWith("kotikbot") }, t2.projects)}
+        ${ProjectList({ title: t.decent, filter: (p) => p.id.startsWith("chertnodes") || p.id.startsWith("protectx") || p.id.startsWith("khanswers") }, t2.projects)}
+        ${ProjectList({ title: t.small, filter: (p) => !(p.id.startsWith("chertnodes") || p.id.startsWith("protectx") || p.id.startsWith("khanswers")) }, t2.projects)}
     `;
 };
