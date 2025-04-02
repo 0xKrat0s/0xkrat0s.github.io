@@ -1,0 +1,141 @@
+{
+    "header": {
+        "home": "home",
+        "projects": "articles",
+        "about": "about-me",
+        "contacts": "contacts"
+    },
+    "footer": {
+        "description": "Cybersecurity Analyst and Researcher based in UAE",
+        "copyright": "Copyright 2023. Made by Amal",
+        "media": "Media"
+    },
+    "skills": {
+        "language": "Languages",
+        "database": "Databases",
+        "other": "Other",
+        "tool": "Tools",
+        "framework": "Frameworks"
+    },
+    "projects": {
+        "chertnodes": {
+            "name": "Web Application Security",
+            "description": "Security strategies for modern web applications"
+        },
+        "protectx": {
+            "name": "Penetration Testing Basics",
+            "description": "Introduction to effective penetration testing methodologies"
+        },
+        "khanswers": {
+            "name": "OWASP Top 10",
+            "description": "Understanding common web vulnerabilities"
+        },
+        "kotikbot": {
+            "name": "Security CTF Writeups",
+            "description": "Detailed walkthroughs of various CTF challenges"
+        },
+        "portfolio": {
+            "name": "API Security",
+            "description": "Best practices for securing APIs"
+        },
+        "blog": {
+            "name": "Threat Intelligence",
+            "description": "Understanding modern cyber threats"
+        },
+        "discordbot": {
+            "name": "Cloud Security",
+            "description": "Security strategies for cloud environments"
+        },
+        "chesspro": {
+            "name": "Container Security",
+            "description": "Securing Docker and Kubernetes deployments"
+        },
+        "ooku": {
+            "name": "Security Automation",
+            "description": "Tools and techniques for automating security tasks"
+        },
+        "madhost": {
+            "name": "Secure Coding Practices",
+            "description": "Writing more secure application code"
+        },
+        "feedrum": {
+            "name": "DevSecOps",
+            "description": "Integrating security into the development pipeline"
+        },
+        "deplos": {
+            "name": "Mobile App Security",
+            "description": "Security considerations for mobile applications"
+        },
+        "pixel-battle": {
+            "name": "Malware Analysis",
+            "description": "Techniques for analyzing malicious software"
+        }
+    },
+    "pages": {
+        "home": {
+            "hero": {
+                "title": "Amal is a <span>cybersecurity analyst</span> and <span>researcher</span>",
+                "description": "Specializing in application security, vulnerability assessment, and penetration testing",
+                "button": "Contact ME",
+                "status": "Open for new opportunities"
+            },
+            "quote": {
+                "text": "Security is not a product, but a process",
+                "author": "Bruce Schneier"
+            },
+            "projects": {
+                "title": "articles",
+                "button": "View all"
+            },
+            "skills": {
+                "title": "skills"
+            },
+            "about": {
+                "title": "about",
+                "description": [
+                    "My name is Amal, I work in cybersecurity, focusing on keeping applications safe and finding vulnerabilities. I'm always learning and growing in this field and currently working as a Security Analyst. I specialize in application security and am deeply committed to advancing my career in this field. My expertise lies in identifying and resolving security vulnerabilities, which I approach with a strong passion for continuous learning. I engage in hands-on projects, collaborative efforts, and cutting-edge research to stay at the forefront of the industry.",
+                    "In my role as a Security Analyst, I focus on analyzing and fortifying applications to protect them from potential threats. My work involves not only technical skills but also effective communication, which ensures smooth collaboration with team members and adaptability in fast-paced environments.",
+                    "I have consistently excelled in Capture The Flag (CTF) challenges, which showcase my ability to tackle complex security problems both independently and as part of a team. My goal is to contribute meaningfully to the cybersecurity field, leveraging my skills and experience to drive progress and innovation."
+                ],
+                "button": "View all"
+            },
+            "contacts": {
+                "title": "contacts",
+                "text": "I'm open to new opportunities and collaborations in the cybersecurity field. If you have any questions or would like to connect, don't hesitate to reach out.",
+                "media": "Message me here",
+                "donate": "Donate me here"
+            }
+        },
+        "projects": {
+            "description": "My Security Articles",
+            "decent": "featured",
+            "small": "tutorials",
+            "inProgress": "research"
+        },
+        "about": {
+            "description": "Who am i",
+            "about": {
+                "description": [
+                    "My name is Amal, I work in cybersecurity, focusing on keeping applications safe and finding vulnerabilities. I'm always learning and growing in this field and currently working as a Security Analyst. I specialize in application security and am deeply committed to advancing my career in this field.",
+                    "My expertise lies in identifying and resolving security vulnerabilities, which I approach with a strong passion for continuous learning. I engage in hands-on projects, collaborative efforts, and cutting-edge research to stay at the forefront of the industry.",
+                    "In my role as a Security Analyst, I focus on analyzing and fortifying applications to protect them from potential threats. My work involves not only technical skills but also effective communication, which ensures smooth collaboration with team members and adaptability in fast-paced environments."
+                ]
+            },
+            "skills": {
+                "title": "skills"
+            },
+            "facts": {
+                "title": "achievements",
+                "list": [
+                    "Participated in numerous CTF competitions", 
+                    "Regular contributor to security research",
+                    "Certified in various security domains", 
+                    "Active member of cybersecurity communities"
+                ]
+            }
+        },
+        "contacts": {
+            "description": "How to contact me"
+        }
+    }
+}
