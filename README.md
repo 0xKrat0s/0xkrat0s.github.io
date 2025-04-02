@@ -7,7 +7,7 @@ Based on a vanilla JavaScript template with custom modifications to highlight my
 **BLOG**: [0xkratos.medium.com](https://0xkratos.medium.com/)
 
 ## Features ##
-- Responsive design
+- Responsive design.
 - Multi-language support
 - Links to cybersecurity articles and research
 - Skills showcase
