@@ -55,9 +55,17 @@ const ArticlesSection = () => {
                 </div>
               </div>
               
-              <h3 className="text-lg font-mono font-medium mb-2 text-white group-hover:text-cyber-green transition-colors">
-                {article.title}
-              </h3>
+              <a 
+                href={article.url} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group cursor-pointer"
+              >
+                <h3 className="text-lg font-mono font-medium mb-2 text-white group-hover:text-cyber-green transition-colors relative inline-block">
+                  {article.title}
+                  <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-cyber-green transition-all duration-300 group-hover:w-full"></span>
+                </h3>
+              </a>
               
               <p className="text-cyber-light-gray text-sm mb-4 flex-grow">
                 {article.excerpt}
@@ -70,22 +78,7 @@ const ArticlesSection = () => {
               >
                 <a href={article.url} target="_blank" rel="noopener noreferrer">
                   <span className="mr-2">Read Article</span>
-                  <svg 
-                    width="16" 
-                    height="16" 
-                    viewBox="0 0 16 16" 
-                    fill="none" 
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="transition-transform group-hover:translate-x-1"
-                  >
-                    <path 
-                      d="M3.33334 8H12.6667M12.6667 8L8.66668 4M12.6667 8L8.66668 12" 
-                      stroke="currentColor" 
-                      strokeWidth="1.5" 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round"
-                    />
-                  </svg>
+                  <ExternalLink className="h-4 w-4" />
                 </a>
               </Button>
             </div>
